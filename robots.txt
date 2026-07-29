@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://z-tech-os.github.io/Zyvora/sitemap.xml
