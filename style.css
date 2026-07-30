@@ -165,7 +165,7 @@ span, b{
 }
 
 .notes ul li::marker{
-  content: "👉🏿";
+  content: "🌿";
 }
 
 .notes ol li::marker{
@@ -178,7 +178,7 @@ span, b{
 
 /*-- Text to large or small due to screen size --*/
 h1{font-size: clamp(2rem, 5vw, 4rem);}
-h2{font-size: clamp(1.5rem, 4vw, 3rem);}
+h2{font-size: clamp(1.3rem, 4vw, 3rem);}
 h3{font-size: clamp(1rem, 3vw, 2rem);}
 p{font-size: clamp(1rem, 1vw, 2rem);}
 
@@ -383,8 +383,7 @@ textarea::placeholder{
 }
 
 textarea{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 input:active,
