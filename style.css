@@ -164,17 +164,19 @@ span, b{
 .notes ul,
 .notes ol{
   padding: 10px;
+}
+
+.notes ul li,
+.notes ol li{
   font-size: clamp(14px, 1vw, 18px);
 }
 
 .notes ul li::marker{
   content: "🌿";
-  font-size: clamp(14px, 1vw, 18px);
 }
 
 .notes ol li::marker{
-  content: "✳️";
-  font-size: clamp(14px, 1vw, 18px);
+  content: "🦄";
 }
 
 .notes h3{
