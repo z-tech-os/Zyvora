@@ -118,7 +118,7 @@ span, b{
   background-color: var(--dark);
   transition: all 0.5s ease-out;
   opacity: 0;
-  font-size: clamp(14px, 2.2vw, 18px);
+  font-size: clamp(14px, 1vw, 18px);
 }
 
 .cards:hover{
@@ -142,7 +142,7 @@ span, b{
   background-color: var(--light-gray);
   transition: all 0.5s ease-out;
   opacity: 0;
-  font-size: clamp(14px, 2.2vw, 18px);
+  font-size: clamp(14px, 1vw, 18px);
 }
 
 .card:hover {
@@ -229,7 +229,7 @@ header{
   color: var(--off-white);
   text-decoration: none;
   font-weight: bold;
-  font-size: clamp(16px, 2.2vw, 18px);
+  font-size: clamp(16px, 1vw, 18px);
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -401,7 +401,7 @@ textarea:active{
 /*-- Footer Section --*/
 footer{
   padding: 50px 20px;
-  font-size: clamp(13px, 2.2vw, 16px);
+  font-size: clamp(13px, 1vw, 16px);
 }
 
 
