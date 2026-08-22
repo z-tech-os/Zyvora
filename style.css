@@ -168,15 +168,15 @@ span, b{
 
 .notes ul li,
 .notes ol li{
-  font-size: clamp(14px, 1vw, 18px);
+  font-size: clamp(12px, 1vw, 16px);
 }
 
 .notes ul li::marker{
-  content: "🌿";
+  content: "→";
 }
 
 .notes ol li::marker{
-  content: "🦄";
+  content: "✓";
 }
 
 .notes h3{
