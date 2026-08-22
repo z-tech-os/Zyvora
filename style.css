@@ -4,9 +4,9 @@
   --dark: #1F2937;
   --span: #4A6488;
   
-  --white: #FFFFFF;
-  --off-white: #F8FAFC;
-  --light-gray: #E5E7EB;
+  --white: #EAEAEA;
+  --off-white: #E1E1E1;
+  --light-gray: #BFBFBF;
 }
 
 *{
@@ -95,7 +95,7 @@ span, b{
 }
 
 .wrapper{
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -118,6 +118,7 @@ span, b{
   background-color: var(--dark);
   transition: all 0.5s ease-out;
   opacity: 0;
+  font-size: clamp(14px, 2.2vw, 18px
 }
 
 .cards:hover{
@@ -141,6 +142,7 @@ span, b{
   background-color: var(--light-gray);
   transition: all 0.5s ease-out;
   opacity: 0;
+  font-size: clamp(14px, 2.2vw, 18px)
 }
 
 .card:hover {
@@ -180,13 +182,14 @@ span, b{
 h1{font-size: clamp(2rem, 5vw, 4rem);}
 h2{font-size: clamp(1.3rem, 4vw, 3rem);}
 h3{font-size: clamp(1rem, 3vw, 2rem);}
-p{font-size: clamp(1rem, 1vw, 2rem);}
+p{font-size: clamp(1rem, 1vw, 1.3rem);}
 
 body{
   background-color: var(--white);
   color: var(--primary);
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
+  font-display: swap;
   transition: all 0.4s linear ease;
 }
 
@@ -226,6 +229,7 @@ header{
   color: var(--off-white);
   text-decoration: none;
   font-weight: bold;
+  font-size: clamp(16px, 2.2vw, 18px);
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -270,7 +274,7 @@ header{
 /*-- HERO SECTION --*/
 .hero{
   padding: 100px 20px;
-  background-image: linear-gradient(90deg, #FFFFFF, #FFFFFFCF, #FFFFFF00), url(bg-image.webp);
+  background-image: linear-gradient(90deg, #CBCBCB, #AAAAAACF, #FFFFFF00), url(bg-image.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -314,7 +318,7 @@ header{
   text-decoration: none;
   border: none;
   padding: 5px;
-  font-size: 25px;
+  font-size: clamp(16px, 3vw, 18px);
   border-radius: 10px;
 }
 
@@ -384,6 +388,7 @@ textarea::placeholder{
 
 textarea{
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 input:active,
@@ -396,6 +401,7 @@ textarea:active{
 /*-- Footer Section --*/
 footer{
   padding: 50px 20px;
+  font-size: clamp(13px, 2.2vw, 16px);
 }
 
 
@@ -418,8 +424,7 @@ footer{
 
 .copyright {
   width: 100%;
-  color: var(--secondary);
-  animation: blink 2s linear infinite;
+  color: var(--light-gray);
 }
 
 @media (max-width: 678px) {
