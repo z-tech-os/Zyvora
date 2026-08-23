@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://z-tech-os.github.io/Zyvora/index.html</loc> <lastmod>2026-07-29</lastmod><priority>1.0</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/about-zyvora.html</loc><lastmod>2026-07-29</lastmod><priority>0.9</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/about-me.html</loc><lastmod>2026-07-29</lastmod><priority>0.9</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/privacy-policy.html</loc><lastmod>2026-07-29</lastmod><priority>0.6</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/terms-of-service.html</loc><lastmod>2026-07-29</lastmod><priority>0.6</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/help-center.html</loc><lastmod>2026-07-29</lastmod><priority>0.7</priority></url>
-  
-  <url><loc>https://z-tech-os.github.io/Zyvora/FAQ.html</loc><lastmod>2026-07-29</lastmod><priority>0.7</priority></url>
+
+  <!-- Zyvora Homepage -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Zyvora -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/about-zyvora.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About Mustapha Gbanie / Author Profile -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/about-me.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/privacy-policy.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/terms-of-service.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Help & Support Center -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/help-center.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Frequently Asked Questions -->
+  <url>
+    <loc>https://z-tech-os.github.io/Zyvora/FAQ.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
