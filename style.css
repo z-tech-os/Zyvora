@@ -263,12 +263,11 @@ header{
   align-items: center;
 }
 
-.logo h1{
+.logo h2::before{
   color: var(--white);
   font-size: 40px;
   font-family: cursive;
   font-weight: bolder;
-  animation: blink 10s linear infinite;
 }
 
 .logo h2{
