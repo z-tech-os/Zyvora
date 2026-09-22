@@ -38,7 +38,7 @@
 <meta name="google" content="nositelinkssearchbox">
 
 <!-- Theme Color -->
-<meta name="theme-color" content="#2F3B4C">
+<meta name="theme-color" content="#FF8B00;">
 
 <!-- =========================
      CANONICAL URL
@@ -182,10 +182,7 @@
      MAIN STYLESHEET
      ========================= -->
 
-<link
-  rel="stylesheet"
-  href="style.css"
->
+<link rel="stylesheet" href="style.css">
 
 
 <!-- =========================
@@ -292,6 +289,7 @@
 </head>
 
 <body>
+     
   <!-- Page loader -->
   <div id="loader">
     <div class="spinner"></div>
@@ -308,15 +306,22 @@
         <h2>Zyvora</h2>
         </div>
         
-        <button aria-label="drop-down menu button" onclick="menuBtn ()" class="button"><i class="fa-solid fa-bars"></i></button>
+        <div aria-label="drop-down menu button" onclick="menuBtn ()" class="button">
+          <div class="bar-cont">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
         
         <div class="nav-links">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a id="active" href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="zyvora-ai.html">Zyvora Ai</a></li>
+             <li><a href="FAQ.html">FAQ</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -333,11 +338,11 @@
         <div class="wrapper">
           <i class="welcome">Welcome to Zyvora</i>
           <br /><br /><br />
-          <h1>YOUR TRUSTED WEB <br /> DEVELOPMENT <br /><span>PARTNER</span></h1><br />
+          <h1>YOUR TRUSTED WEB <br /> <span>DEVELOPMENT</span> <br />PARTNER</h1><br />
           
-          <p>Hey there!, I'm <strong>Mustapha Gbanie</strong>, founder of Zyvora.<br /> I build fast, responsive, and modern websites that help businesses, schools,<br /> organizations, and individuals establish a strong online presence.</p><br /><br />
+          <p>Hey there!, I'm <strong>Mustapha Gbanie</strong>, founder of Zyvora. I build fast, responsive, and modern websites that help businesses, schools, organizations, and individuals establish a strong online presence.</p><br />
           
-          <a aria-label="Message zyvora on WhatsApp" rel="noopener noreferrer" class="btn" href="https://wa.me/23231762892">Message Me Now</a>
+          <a aria-label="Message zyvora on WhatsApp" rel="noopener noreferrer" class="btn" href="https://wa.me/23231762892">Message</a>
           
           <a aria-label="Scroll to the services section" class="hire-btn" href="#services">Explore</a>
           
@@ -347,23 +352,23 @@
       <!-- About section -->
       <section id="about" class="about">
         <div class="wrapper">
-          <h2>==// ABOUT ZYVORA ==</h2>
+          <h2><span>⫘</span> ABOUT US <span>==</span></h2>
           <br /><br />
           
           <div class="card-container">
             
             <div class="about-card">
-              <h3><i class="fa-solid fa-network-wired"></i> About <span>Zyvora</span></h3>
+              <h3><i class="fa-solid fa-network-wired"></i> ABOUT <span>ZYVORA</span></h3><br />
               <p>Zyvora is here to help you bring your ideas online! I create beautiful, fast websites that work perfectly on every phone, tablet and computer. Whether you’re running a business, a school, an organization or just want something special for your family — I’ll build it just how you want it, easy to use and ready to help you shine online</p><br />
               
               <a class="btn" aria-label="Explore more about zyvora" href="about-zyvora.html">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             
             <div class="about-card">
-              <h3><i class="fa-solid fa-user"></i> About the <span>Author</span></h3>
-              <p>Hey there, I’m Mustapha Gbanie, your friendly web developer and the founder of zyvora. I love turning your big and small ideas into real, amazing websites. I listen to what you need, keep things simple, and make sure you end up with something you’re truly proud of. Let’s work together — it will be fun, I promise!</p><br />
+              <h3><i class="fa-solid fa-user"></i> MEET THE <span>FOUNDER</span></h3><br />
+              <p>Hey there, I’m <span>Mustapha Gbanie</span>, your friendly web developer and the founder of zyvora. I love turning your big and small ideas into real, amazing websites. I listen to what you need, keep things simple, and make sure you end up with something you’re truly proud of. Let’s work together — it will be fun, I promise!</p><br />
               
-              <a class="btn" aria-label="Explore more about the author of zyvora" href="about-me.html">More About Me <i class="fa-solid fa-arrow-right"></i></a>
+              <a class="btn" aria-label="Explore more about the author of zyvora" href="about -me.html">More About Me <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             
           </div>
@@ -373,7 +378,7 @@
       <!-- Skills section -->
       <section id="skills" class="skills">
         <div class="wrapper">
-          <h2>==// WHAT I CAN DO ==</h2>
+          <h2><span>⫘</span> WHAT WE CAN DO <span>==</span></h2>
           <br /><br />
           
           <div class="card-container">
@@ -412,7 +417,7 @@
       <!-- Services section -->
       <section id="services" class="services">
         <div class="wrapper">
-          <h2>==// SERVICES OFFERED ==</h2>
+          <h2><span>⫘</span> SERVICES OFFERED <span>==</span></h2>
           <br /><br />
           
           <div class="card-container">
@@ -436,12 +441,6 @@
             </div>
             
             <div class="card">
-              <i class="fa-solid fa-building"></i>
-              <h3>Org Website</h3>
-              <p>Perfect for masjids, NGOs and groups — share your work and reach more people who care.</p>
-            </div>
-            
-            <div class="card">
               <i class="fa-solid fa-ellipsis"></i>
               <h3>And More</h3>
               <p>Got something different in mind? Just tell me — I’ll build exactly what you’re looking for</p>
@@ -457,19 +456,19 @@
       <!-- Contact section -->
       <section id="contact" class="contact">
         <div class="wrapper">
-          <h2>==// GET IN TOUCH ==</h2>
+          <h2><span>⫘</span> START YOUR PROJECT <span>==</span></h2>
           <br /><br />
           
           <div class="card-container">
             
-            <div class="address">
+            <div class="address left">
               <p><i class="fa-solid fa-location-dot"></i>  Fonikoh, Kenema, Sierra Leone.</p>
               <br />
               <p><i class="fa-solid fa-phone"></i>  +232 31 762892</p>
               <br />
               <p><i class="fa-solid fa-envelope"></i>  zyvora490@gmail.com</p>
               <br /><br />
-              <h3>Connect With Me</h3>
+              <h3>Follow Me</h3>
           <br />
           <a aria-label="Visit zyvora on Facebook" rel="noopener noreferrer" class="link" href="https://www.facebook.com/profile.php?id=61592107724183"><i class="fa-brands fa-facebook"></i></a>
           
@@ -508,7 +507,7 @@
   <footer>
     <div class="wrapper">
       
-      <div class="card-container">
+      <div class="card-container line">
         
         <div class="logo-path">
           <div class="logo">
@@ -552,15 +551,15 @@
         </div>
         
       </div>
-      <br /><hr /><br />
+      <br /><br />
       <div class="card-container">
         <p class="copyright">&copy; 2026 Zyvora | All Rights Reserved</p>
         
-        <p>Build with love by Mustapha Gbanie</p>
+        <p>Build with love by <span>Mustapha Gbanie</span></p>
       </div>
     </div>
   </footer>
   
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
