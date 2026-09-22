@@ -202,6 +202,11 @@ b, strong {
 
 .left{
   text-align: left;
+  box-shadow: 3px 3px 0 var(--orange);
+}
+
+.left i{
+  font-size: 18px;
 }
 
 .cards:hover {
@@ -277,16 +282,16 @@ b, strong {
 
 .notes ul li,
 .notes ol li {
-  font-size: clamp(16px, 1vw, 18px);
+  font-size: clamp(0.7rem, 1vw, 1.2rem);
 }
 
 .notes ul li::marker {
-  content: "⁠⇒  ";
+  content: "⁠⇒ ";
   color: var(--orange);
 }
 
 .notes ol li::marker {
-  content: "⪢  ";
+  content: "⪢ ";
   color: var(--orange);
 }
 
