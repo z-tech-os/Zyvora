@@ -205,8 +205,8 @@ b, strong {
   box-shadow: 3px 3px 0 var(--orange);
 }
 
-.left i{
-  font-size: 18px;
+.left p i{
+  font-size: 25px;
 }
 
 .cards:hover {
@@ -282,7 +282,7 @@ b, strong {
 
 .notes ul li,
 .notes ol li {
-  font-size: clamp(0.7rem, 1vw, 1.2rem);
+  font-size: clamp(0.6rem, 1vw, 1.2rem);
 }
 
 .notes ul li::marker {
@@ -505,6 +505,10 @@ header {
 
 .link:hover {
   color: var(--orange);
+}
+
+.link a i{
+  font-size: 25px;
 }
 
 
