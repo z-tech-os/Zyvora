@@ -3,7 +3,7 @@
     ========================*/
 ::-webkit-scrollbar{
   background-color: var(--primary);
-  width: 12px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -206,12 +206,13 @@ b, strong {
 }
 
 .left p i{
-  font-size: 25px;
+  font-size: 17px;
+  color: var(--orange);
 }
 
 .left a i,
  .link i{
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .cards:hover {
@@ -278,6 +279,7 @@ b, strong {
 
 .notes {
   padding: 110px 30px 70px 30px;
+  font-size: clamp(0.8rem, 1vw, 1.3rem);
 }
 
 .notes ul,
