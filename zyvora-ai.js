@@ -5,7 +5,7 @@ ZYVORA AI OPENROUTER FRONTEND TEST
 /* =======================
 1. ALL  SETTINGS NEED
 ======================== */
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "API KEY HERE LATER";
 const MODEL_NAME = "openrouter/free";
 const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 
